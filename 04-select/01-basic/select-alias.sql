@@ -82,7 +82,7 @@ SELECT
     Name,
     Salary AS Pay
 FROM Employees
-WHERE Pay > 500000;
+WHERE Pay > 50,000;
 */
 
 -- ----------------------------------------------
@@ -90,7 +90,7 @@ WHERE Pay > 500000;
 -- Alias does not exist at WHERE stage
 -- ----------------------------------------------
 
--- 8. Correct version of WHERE condition
+-- 8. Correct version of the WHERE condition
 SELECT
     Name,
     Salary AS Pay
